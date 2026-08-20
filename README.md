@@ -14,7 +14,7 @@ dívidas, e recebe:
 > [DIO](https://www.dio.me/), a partir do template criado pela instrutora em
 > [digitalinnovationone/planejai](https://github.com/digitalinnovationone/planejai).
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Simulação guiada**: formulário em etapas (renda, custos fixos, dívidas,
   nome/custo/prazo da meta).
@@ -26,7 +26,7 @@ dívidas, e recebe:
   exclusão e acesso rápido ao resultado de cada uma.
 - **Tema claro/escuro**, com preferência salva entre sessões.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - [React 19](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vite.dev/) — build e dev server
@@ -36,7 +36,7 @@ dívidas, e recebe:
 - [react-loading-skeleton](https://github.com/dvtng/react-loading-skeleton) — estados de carregamento
 - API do [Google Gemini](https://ai.google.dev/) — geração do diagnóstico e das respostas do chat
 
-## 🧩 Decisões de arquitetura
+## Decisões de arquitetura
 
 Algumas decisões tomadas ao longo do desenvolvimento, e o porquê:
 
@@ -103,7 +103,7 @@ Algumas decisões tomadas ao longo do desenvolvimento, e o porquê:
   stroke padrão dos ícones) ficam dentro de `@layer base`, para que
   utilitários do Tailwind sempre consigam sobrescrevê-los quando necessário.
 
-## 📂 Estrutura de pastas
+## Estrutura de pastas
 
 ```
 src/
@@ -124,7 +124,7 @@ src/
 └── styles/            # Variáveis de tema (CSS)
 ```
 
-## 🚀 Rodando localmente
+## Rodando localmente
 
 Pré-requisitos: [Node.js](https://nodejs.org/) 20+ e [pnpm](https://pnpm.io/).
 
@@ -140,17 +140,17 @@ cp .env.example .env.local
 pnpm dev
 ```
 
-## 📜 Scripts disponíveis
+## Scripts disponíveis
 
-| Comando              | Descrição                                  |
-| --------------------- | ------------------------------------------- |
-| `pnpm dev`            | Sobe o servidor de desenvolvimento (Vite)  |
-| `pnpm build`           | Type-check + build de produção             |
-| `pnpm preview`         | Serve o build de produção localmente        |
-| `pnpm lint` / `lint:fix` | Roda o ESLint                            |
-| `pnpm format` / `format:check` | Roda o Prettier                    |
+| Comando                        | Descrição                                 |
+| ------------------------------ | ----------------------------------------- |
+| `pnpm dev`                     | Sobe o servidor de desenvolvimento (Vite) |
+| `pnpm build`                   | Type-check + build de produção            |
+| `pnpm preview`                 | Serve o build de produção localmente      |
+| `pnpm lint` / `lint:fix`       | Roda o ESLint                             |
+| `pnpm format` / `format:check` | Roda o Prettier                           |
 
-## 🔗 Créditos
+## Créditos
 
 Desafio proposto pelo [Santander Open Academy](https://www.dio.me/) em
 parceria com a [DIO](https://www.dio.me/), com base no template do curso
